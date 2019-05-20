@@ -5625,8 +5625,8 @@ Created using IcoMoon - icomoon.io
     /* For Safari 5.1 to 6.0 */
     /* For Opera 11.1 to 12.0 */
     /* For Firefox 3.6 to 15 */
-    background: -webkit-gradient(linear, left top, left bottom, fromrgb(47, 125, 177)), color-stop(80%, #000));
-    background: linear-gradientrgb(47, 125, 177) 0%, #000 80%);
+    background: -webkit-gradient (linear, left top, left bottom, fromrgb(47, 125, 177), color-stop(80%, #000));
+    background: linear-gradient(rgb(47, 125, 177) 0%, #000 80%);
     /* Standard syntax (must be last) */
     opacity: 0.76;
     filter: alpha(opacity=76);
@@ -6340,8 +6340,8 @@ Created using IcoMoon - icomoon.io
     /* For Safari 5.1 to 6.0 */
     /* For Opera 11.1 to 12.0 */
     /* For Firefox 3.6 to 15 */
-    background: -webkit-gradient(linear, left top, left bottom, fromrgb(47, 125, 177)), color-stop(80%, #000));
-    background: linear-gradientrgb(47, 125, 177) 0%, #000 80%);
+    background: -webkit-gradient (linear, left top, left bottom, from rgb(47, 125, 177), color-stop(80%, #000));
+    background: linear-gradient (rgb(47, 125, 177) 0%, #000 80%);
     /* Standard syntax (must be last) */
     opacity: 0.76;
     filter: alpha(opacity=76);
@@ -7298,4 +7298,9 @@ a.credit {
 /* Common Style */
 .section {
   padding-bottom: 0;
+}
+.quote{
+  font-family: 'Poppins', sans-serif;
+  text-align: left;
+  font-size: 20px;
 }
