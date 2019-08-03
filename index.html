@@ -13,6 +13,8 @@
     <link href="css/aos.css" rel="stylesheet">
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="styles/main.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.theme.min.css">
   </head>
   <body id="top">
     <header>
@@ -30,10 +32,10 @@
                 <li class="nav-item"><a class="nav-link smooth-scroll" href="#experience">Experience</a></li>
                 <li class="nav-item"><a class="nav-link smooth-scroll" href="#contact">Contact</a></li>
                 <li class="nav-item">
-                  <a class="nav-link smooth-scroll language_flag" href="index ind.html"><img src="images/indonesia.png" alt="" style="height: 28px; width : 28px">&nbsp; IND</a>
+                  <a class="nav-link smooth-scroll" href="index ind.html"><img src="images/indonesia.png" alt="" style="height: 28px; width : 28px">&nbsp; IND</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link smooth-scroll " href="index.html"><img src="images/usa.png" alt="" style="height: 28px; width : 28px">&nbsp; ENG</a>
+                  <a class="nav-link smooth-scroll" href="index.html"><img src="images/usa.png" alt="" style="height: 28px; width : 28px">&nbsp; ENG</a>
                 </li>
               </ul>
             </div>
@@ -412,53 +414,57 @@
 </div>
 <div class="section" id="reference">
   <div class="container cc-reference">
-    <div class="h4 mb-4 text-center title">References</div>
+    <div class="h4 mb-4 text-center title">Referensi</div>
     <div class="card" data-aos="zoom-in">
-      <div class="carousel slide" id="cc-Indicators" data-ride="carousel">
-        <ol class="carousel-indicators">
-          <li class="active" data-target="#cc-Indicators" data-slide-to="0"></li>
-          <li data-target="#cc-Indicators" data-slide-to="1"></li>
-          <li data-target="#cc-Indicators" data-slide-to="2"></li>
-        </ol>
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <div class="row">
-              <div class="col-lg-2 col-md-3 cc-reference-header"><img src="images/jack1.jpg" alt="Image"/>
-                <div class="h5 pt-2">Jack Ma / Ma Yun</div>
-                <p class="category">CEO Alibaba and GREAT FIGURE</p>
-              </div>
-              <div class="col-lg-10 col-md-9">
-                <p class="quote"> "To day is hard. Tomorrow is harder, but the day after tomorrow will be beautiful. Most people die when it is tomorrow evening, and dont get a chance to see the sunrise.."</p>
-              </div>
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+          <div id="testimonial-slider" class="owl-carousel">
+                <div class="testimonial">
+                    <p class="description">
+                       "To day is hard. Tomorrow is harder, but the day after tomorrow will be beautiful. Most people die when it is tomorrow evening, and dont get a chance to see the sunrise.."
+                    </p>
+                    <div class="pic">
+                        <img src="images/jack1.jpg"  alt="">
+                    </div>
+                    <h3 class="testimonial-title">
+                        Jack Ma / Ma Yun
+                        <small>CEO Alibaba and GREAT FIGURE</small>
+                    </h3>
+                </div>
+ 
+                <div class="testimonial">
+                    <p class="description">
+                      "Do not grieve over what has passed, unless it makes you work harder for what is about to come."
+                    </p>
+                    <div class="pic">
+                        <img src="images/umar2.jpg"  alt="">
+                    </div>
+                    <h3 class="testimonial-title">
+                        Umar bin Khattab
+                        <small>The Succession of the Rassidin</small>
+                    </h3>
+                </div>
+
+                <div class="testimonial">
+                    <p class="description">
+                 "Don't try to be a successful person, but try to be a valuable person"
+                    </p>
+                    <div class="pic">
+                        <img src="images/albert.jpg" alt="">
+                    </div>
+                    <h3 class="testimonial-title">
+                      Albert Einstein
+                        <small>Great Figure of Physics</small>
+                    </h3>
+                </div>
             </div>
-          </div>
-          <div class="carousel-item">
-            <div class="row">
-              <div class="col-lg-2 col-md-3 cc-reference-header"><img src="images/umar.jpg" alt="Image"/>
-                <div class="h5 pt-2">Umar bin Khattab</div>
-                <p class="category">The Succession of the Rassidin</p>
-              </div>
-              <div class="col-lg-10 col-md-9">
-                <p class="quote"> "Do not grieve over what has passed, unless it makes you work harder for what is about to come."</p>
-              </div>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <div class="row">
-              <div class="col-lg-2 col-md-3 cc-reference-header"><img src="images/albert.jpg" alt="Image"/>
-                <div class="h5 pt-2">Albert Einstein</div>
-                <p class="category">Great Figure of Physics</p>
-              </div>
-              <div class="col-lg-10 col-md-9">
-                <p class="quote"> "Don't try to be a successful person, but try to be a valuable person"</p>
-              </div>
-            </div>
-          </div>
         </div>
-      </div>
     </div>
-  </div>
 </div>
+</div>
+</div>
+</div>>
 <div class="section" id="contact">
   <div class="cc-contact-information" style="background-image: url('images/jj.png');background-attachment: fixed; ">
     <div class="container">
@@ -553,5 +559,23 @@
     <script src="js/aos.js"></script>
     <script src="scripts/main.js"></script>
     <script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.js"></script>
+
+    <script type="text/javascript">
+      $(document).ready(function(){
+        $("#testimonial-slider").owlCarousel({
+            items:1,
+            itemsDesktop:[1000,1],
+            itemsDesktopSmall:[979,1],
+            itemsTablet:[768,1],
+            pagination:true,
+            navigation:false,
+            navigationText:["",""],
+            slideSpeed:1000,
+            singleItem:true,
+            autoPlay:true
+        });
+    });
+    </script>
   </body>
 </html>
